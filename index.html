@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Age_calculator</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="conteinar">
+      <!-- <form> -->
+      <h1>Age calculator</h1>
+      <div class="calculator">
+        <div class="dob">
+          <div><label for="dob">DATE OF BIRTH</label></div>
+          <div><input type="date" name="" id="dob" /></div>
+        </div>
+        <div class="givdate">
+          <div><label for="givdate">CALCULATE DATE</label></div>
+          <div><input type="date" name="" id="givedate" /></div>
+        </div>
+        <button onclick="calculation()">Calculate</button>
+      </div>
+      <!-- </form> -->
+      <div class="ans">
+        <h2 id="year"></h2>
+        <h2 id="month"></h2>
+        <h2 id="day"></h2>
+      </div>
+    </div>
+  </body>
+</html>
